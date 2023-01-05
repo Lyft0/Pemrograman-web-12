@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("img/background.jpeg");
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.wrapper {
+  background-color: black;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.header {
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.riddles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#question {
+  text-align: center;
+  font-size: 0.9em;
+  background-color: rgb(86, 86, 86);
+  padding: 20px;
+  width: 600px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.answerInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#answer {
+  text-align: center;
+  font-size: 0.9em;
+  background-color: rgb(86, 86, 86);
+  padding: 20px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px;
+  color: rgb(2, 195, 2);
+  background-color: black;
+  border-radius: 5px;
+  border-color: green;
+}
+
+button:hover {
+  color: black;
+  background-color: rgb(2, 195, 2);
+}
