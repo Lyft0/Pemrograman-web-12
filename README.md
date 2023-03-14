@@ -1,4 +1,3 @@
-# Pemrograman-web-12
-The Riddler Game<br>
+# The Riddler Game
 <br>
 Riddle guessing game, with API : https://riddles-api.vercel.app/random
